@@ -1,0 +1,16 @@
+@font-face {
+  font-family: CHILLER;
+  src: url(CHILLER.TTF);
+}
+
+* {
+  color: limegreen;
+  font-family: CHILLER;
+  text-align: center;
+}
+
+body { background: darkslategrey url(deepslate.png) repeat top center; }
+
+/* a.button {
+  
+} */
