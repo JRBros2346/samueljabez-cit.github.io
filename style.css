@@ -1,9 +1,9 @@
+@import url(assets/FiraCode/fira_code.css);
+
 @font-face {
   font-family: CHILLER;
   src: url(assets/CHILLER.TTF);
 }
-
-@import url(assets/FiraCode/fira_code.css);
 
 * {
   color: limegreen;
