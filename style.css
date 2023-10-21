@@ -1,9 +1,9 @@
+@import url(assets/FiraCode/fira_code.css);
+
 @font-face {
   font-family: CHILLER;
   src: url(assets/CHILLER.TTF);
 }
-
-@import url(assets/FiraCode/fira_code.css);
 
 * {
   color: limegreen;
@@ -13,7 +13,7 @@
 
 html, body { height: 100%; }
 
-body { background: darkslategrey url(assets/deepslate.png) repeat top center; }
+body { background: darkslategray url(assets/deepslate.png) repeat top center; }
 
 header {
   height: 12.5%;
@@ -29,6 +29,7 @@ aside {
   position: relative;
   overflow: hidden;
   float: left;
+  background-color: darkslateblue;
 }
 
 aside video {
@@ -38,7 +39,7 @@ aside video {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: -1;
+  z-index: 0;
 }
 
 aside nav {
