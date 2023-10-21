@@ -1,7 +1,9 @@
 @font-face {
   font-family: CHILLER;
-  src: url(CHILLER.TTF);
+  src: url(assets/CHILLER.TTF);
 }
+
+@import url(assets/FiraCode/fira_code.css);
 
 * {
   color: limegreen;
@@ -9,7 +11,88 @@
   text-align: center;
 }
 
-body { background: darkslategrey url(deepslate.png) repeat top center; }
+html, body { height: 100%; }
+
+body { background: darkslategrey url(assets/deepslate.png) repeat top center; }
+
+header {
+  height: 12.5%;
+}
+
+footer {
+  height: 12.5%;
+}
+
+aside {
+  width: 25%;
+  height: 75%;
+  position: relative;
+  overflow: hidden;
+  float: left;
+}
+
+aside video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+aside nav {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+aside nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+aside nav ul li {
+  display: inline;
+  padding: 20px;
+}
+
+aside nav ul li a {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: azure;
+  padding: 5%;
+  font-family: 'Fira Code';
+}
+
+main {
+  width: 75%;
+  height: 75%;
+  float: right;
+}
+
+table {
+  float: right;
+}
+
+td, th {
+  border: solid magenta;
+  padding: 10px;
+  color: darkcyan;
+  font-family: 'Fira Code';
+}
+
+th {
+  background-color: darkcyan;
+  color: brown;
+}
+
+tfoot td{
+  color: aquamarine;
+  font-style: italic;
+}
 
 /* a.button {
   
